@@ -1,0 +1,24 @@
+[submodule "mongorcd"]
+	path = mongorcd
+	url = git@github.com:devkev/mongorcd.git
+[submodule "mongo-hacker"]
+	path = mongo-hacker
+	url = git@github.com:TylerBrock/mongo-hacker.git
+[submodule "mongodb-shell-extensions"]
+	path = mongodb-shell-extensions
+	url = git@github.com:gabrielelana/mongodb-shell-extensions.git
+[submodule "mongodb-schema"]
+	path = mongodb-schema
+	url = git@github.com:skratchdot/mongodb-schema.git
+[submodule "mongodb-wild"]
+	path = mongodb-wild
+	url = git@github.com:skratchdot/mongodb-wild.git
+[submodule "mongodb-distinct-types"]
+	path = mongodb-distinct-types
+	url = git@github.com:skratchdot/mongodb-distinct-types.git
+[submodule "mongo-views"]
+	path = mongo-views
+	url = git@github.com:mongodb-js/mongo-views.git
+[submodule "mongo-table-view"]
+	path = mongo-table-view
+	url = git@github.com:cswanson310/mongo-table-view.git
