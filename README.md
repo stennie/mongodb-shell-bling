@@ -1,13 +1,12 @@
 ## MongoDB Shell Bling
 
-The `mongo` shell includes an embedded JavaScript interpreter which allows 
+The `mongo` shell includes an embedded JavaScript interpreter which allows building custom extensions and helper functions.
 
-More on working with the shell:
+Documentation for working with the `mongo` shell:
 
- - standard
- - keyboard nav
- - writing extensions
-
+ - [Write scripts for the `mongo` shell](https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/)
+ - [Files used by the shell](https://docs.mongodb.com/manual/reference/program/mongo/#files)
+ - [Source code for the shell](https://github.com/mongodb/mongo/tree/v3.2/src/mongo/shell)
 
 ### Installing
 
@@ -21,9 +20,9 @@ To check out all extensions, you can clone this repository using: `git clone --r
 
 ### Caveats
 
- - most of the shell extensions have been independently developed, so functionality may overlap and/or conflict
- - some extensions override built-in `mongo` shell API (as opposed to augment), and may inadvertently cause different behaviour from the default shell
- - run `mongo --norc` to start a shell session without loading any startup scripts
+ - Most of the shell extensions have been independently developed, so functionality may overlap and/or conflict
+ - Some extensions override built-in `mongo` shell API (as opposed to augment), and may inadvertently cause different behaviour from the default shell
+ - Run `mongo --norc` to start a shell session without loading any startup scripts
 
 ### Bundles
 
