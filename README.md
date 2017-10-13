@@ -41,7 +41,6 @@ These extensions provide discrete features which extend built-in objects.
 | Extension                | Author     | Purpose                    |
 |--------------------------|------------|----------------------------|
 | [mongodb-schema](https://github.com/skratchdot/mongodb-schema) | skratchdot| Schema analysis tool; adds `db.collection.schema()` |
-| [mongo-views](https://github.com/mongodb-js/mongo-views) | mongodb-js | Virtual collections - aka views with joins - in the MongoDB shell; adds `db.collection.createView()`, `show views`, and related hlepers.
 | [mongo-table-view](https://github.com/cswanson310/mongo-table-view) | cswanson310 | Display results of a cursor in a table view; adds `.table()` method for `find()` and `aggregate()`.
 | [mongodb-distinct-types](https://github.com/skratchdot/mongodb-distinct-types) | skratchdot| Similar to the db.myCollection.distinct() function, distinctTypes() will return "types" rather than "values"; adds `db.collection.distinctTypes()`. |
 | [mongodb-wild](https://github.com/skratchdot/mongodb-wild) | skratchdot | Adds a wildcard search to collection or query results; adds `db.collection.wild()`, `db.collection.find().wild()`.

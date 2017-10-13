@@ -16,9 +16,6 @@
 [submodule "mongodb-distinct-types"]
 	path = mongodb-distinct-types
 	url = git@github.com:skratchdot/mongodb-distinct-types.git
-[submodule "mongo-views"]
-	path = mongo-views
-	url = git@github.com:mongodb-js/mongo-views.git
 [submodule "mongo-table-view"]
 	path = mongo-table-view
 	url = git@github.com:cswanson310/mongo-table-view.git
